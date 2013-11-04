@@ -1,3 +1,9 @@
+import java.util.*;
+
 public RandomNumberGenerator{
-  
+  public static void main(String[] args){
+    Random gen1 = new Random();
+    int num1 = new gen.nextInt(9) + 1;
+    System.out.println(num1);
+    }
 }
